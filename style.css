@@ -1,0 +1,268 @@
+@font-face {
+  font-family: handwritten_bold;
+  src: url(media/fonts/SFCartoonistHandSC-Bold.ttf);
+}
+
+@font-face {
+  font-family: handwritten;
+  src: url(media/fonts/SFCartoonistHandSC.ttf);
+}
+
+#Dennis_in_the_ligh{
+    max-width: 100%;
+}
+
+#Dennis_spotlight{
+    width: 1000px;
+}
+
+p{
+    font-size: 20px;
+}
+
+figure{
+    margin: 0px;
+}
+
+body{
+    margin: 0px;
+}
+
+#first_question{
+    z-index: 99;
+    position: absolute;
+    top: 65%;
+    right: 0;
+    margin-right: 3%;
+}
+
+#bubble{
+    z-index: 99;
+    position: absolute;
+    top: 65%;
+    left: 0;
+    margin-left: 3%;
+    width: 500px; 
+}
+
+#explain{
+    max-width: 30%;
+    z-index: 100;
+    position: absolute;
+    top: 10%;
+    left: 0;
+    margin-left: 3%;
+}
+
+#black{
+    background-color: black;
+}
+
+
+:root {
+    --backgroundColor: rgba(246, 241, 209);
+    --colorShadeA: rgb(106, 163, 137);
+    --colorShadeB: rgb(121, 186, 156);
+    --colorShadeC: rgb(150, 232, 195);
+    --colorShadeD: rgb(187, 232, 211);
+    --colorShadeE: rgb(205, 255, 232);
+  }
+  
+  @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700");
+  * {
+    box-sizing: border-box;
+  }
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: "handwritten";
+    font-size: 2.5rem;
+    line-height: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    min-height: 100vh;
+    background: var(--backgroundColor);
+  }
+  button {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: black;
+    font-weight: 1000;
+    text-transform: uppercase;
+    font-family: inherit;
+    margin: 3%;
+  }
+  
+  button.big-button {
+    padding: 1em 2em;
+    border: 5px solid black;
+    border-radius: 1em;
+    background: var(--colorShadeE);
+    transform-style: preserve-3d;
+    transition: all 175ms cubic-bezier(0, 0, 1, 1);
+    width: 400px;
+  }
+  button.big-button::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--colorShadeC);
+    border-radius: inherit;
+    box-shadow: 0 0 0 2px var(--colorShadeB), 0 0.75em 0 0 var(--colorShadeA);
+    transform: translate3d(0, 0.75em, -1em);
+    transition: all 175ms cubic-bezier(0, 0, 1, 1);
+  }
+  
+  button.big-button:hover {
+    background: var(--colorShadeD);
+    transform: translate(0, 0.375em);
+  }
+  
+  button.big-button:hover::before {
+    transform: translate3d(0, 0.75em, -1em);
+  }
+  
+  button.big-button:active {
+    transform: translate(0em, 0.75em);
+  }
+  
+  button.big-button:active::before {
+    transform: translate3d(0, 0, -1em);
+  
+    box-shadow: 0 0 0 2px var(--colorShadeB), 0 0.25em 0 0 var(--colorShadeB);
+  }
+
+#anvil{
+  width: 1100px;
+}
+
+#anvilCut{
+  width: 1100px;
+}
+
+#glass_fallen{
+  width: 1500px;
+}
+
+
+#scissors{
+    z-index: 100;
+    position: absolute;
+    top: 20%;
+    right: 0;
+    margin-right: 20%;
+    width: 500px;
+}
+
+#scissors_2{
+    z-index: 100;
+    position: absolute;
+    top: 20%;
+    left: 0;
+    margin-left: 10%;
+    width: 500px;
+}
+
+#cut_text{
+    font-size: 30px;
+    z-index: 999;
+    position: absolute;
+    right: 15%;
+    top: 60%;
+    background-color: rgba(229, 229, 229, 70%);
+    padding: 2%;
+    border-radius: 20px;
+
+}
+
+#cut_text2{
+  font-size: 30px;
+  z-index: 999;
+  position: absolute;
+  right: 5%;
+  top: 40%;
+  background-color: rgba(229, 229, 229, 70%);
+  padding: 2%;
+  border-radius: 20px;
+
+}
+
+.tagline {
+    font-size: 7rem;
+    color: white;
+    position: absolute;
+    top: 30vh;
+    width: 100%;
+    text-align: center;
+  }
+
+#end_credits{
+    z-index: 100;
+    position: absolute;
+    top: 20%;
+}
+
+.garden{
+  background-image: url("media/House-bg.png");
+  background-blend-mode: darken;
+ }
+
+
+h5{
+  margin: 0%;
+  padding: 0%;
+}
+#info {
+  font-size: 1.5rem;
+  display: none;
+  margin: 0%;
+  padding: 0%;
+  font-weight: 1000;
+}
+
+#table {
+  padding-left: 2%;
+  padding-right: 2%;
+	display: table;
+	width: 100%;
+  background-color: rgba(229, 229, 229, 70%);
+  z-index: 99;
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    bottom: 50%;
+    max-width: 35%;
+    height: 300px;
+border-radius: 20px;
+}
+
+#centeralign {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#broll2{
+  z-index: 999;
+  position: absolute;
+  right: 5%;
+    top: 60%;
+}
+
+#faye{
+  height: 100vh;
+}
