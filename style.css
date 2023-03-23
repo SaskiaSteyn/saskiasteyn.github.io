@@ -39,10 +39,10 @@ body{
 #bubble{
     z-index: 99;
     position: absolute;
-    top: 65%;
+    top: 156px;
     left: 0;
-    margin-left: 3%;
-    width: 500px; 
+    margin-left: 6px;
+    width: 550px; 
 }
 
 #explain{
@@ -281,3 +281,4 @@ border-radius: 20px;
 #faye{
   height: 100vh;
 }
+
