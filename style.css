@@ -222,6 +222,21 @@ body{
   background-blend-mode: darken;
  }
 
+#hand_bg{
+  max-width: 100%;
+  z-index: 1;
+  /* position: absolute; */
+  
+}
+
+#faye_hand{
+  height: 100vh;
+  z-index: 99;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 
 h5{
   margin: 0%;
