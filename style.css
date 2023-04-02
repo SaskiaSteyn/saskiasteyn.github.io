@@ -45,6 +45,17 @@ body{
     width: 550px; 
 }
 
+#bubbleText{
+    z-index: 200;
+    position: absolute;
+    top: 230px;
+    left: 50px;
+    margin-left: 6px;
+    width: 350px; 
+    font-size: 45px;
+    font-weight: 800;
+}
+
 #explain{
     max-width: 30%;
     z-index: 100;
@@ -79,7 +90,8 @@ body{
   body {
     font-family: "handwritten";
     font-size: 2.5rem;
-    line-height: 2;
+    line-height: 1.3;
+    letter-spacing: 3px;
     display: flex;
     align-items: center;
     justify-content: center;
