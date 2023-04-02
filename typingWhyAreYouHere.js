@@ -8,9 +8,7 @@ function typeEffect(element, speed, displayBtn) {
       element.append(text.charAt(i));
       i++;
     } else {
-      console.log("CLEAR INTERVAL")
       clearInterval(timer);
-      
     }
   }, speed);
 }
