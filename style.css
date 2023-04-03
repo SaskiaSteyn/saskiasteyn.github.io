@@ -243,17 +243,25 @@ body{
 
 #hand_bg{
   max-width: 100%;
-  z-index: 1;
+  z-index: 0;
   /* position: absolute; */
   
 }
 
 #faye_hand{
-  height: 100vh;
+  width:700px;
   z-index: 99;
   position: absolute;
-  top: 0;
+  top: 190px;
   left: 0;
+}
+
+#tipping{
+  width: 600px;
+  z-index: 90;
+  position: absolute;
+  top: 320px;
+  left: 600px;
 }
 
 
@@ -327,4 +335,37 @@ border-radius: 20px;
 @keyframes anvil_fall {
   0% {transform: translateY(0) translateX(0)}
   100% {transform: translateY(450px)}
+}
+
+#funeral{
+  position: absolute;
+  top: -100px;
+  max-width: 100%;
+  padding: 0px;
+}
+
+#funeral img{
+  max-width: 98vw;
+}
+
+.funeral_page{
+  height: 100vh;
+}
+
+#click{
+  width: 300px;
+  position: absolute;
+  z-index: 100;
+  top: 180px;
+  right: 250px;
+}
+
+
+#click2{
+  width: 300px;
+  position: absolute;
+  z-index: 100;
+  top: 100px;
+  right: 550px;
+  transform: rotate(220deg);
 }

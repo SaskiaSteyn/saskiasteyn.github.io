@@ -1,5 +1,5 @@
 //list of words that are used in letterFadeInWord function
-var taglines = ["Ask yourself...", "Will Faye make it?", "Download the comic and see!", "Forgetful Faye Tucking Fabulous"];
+var taglines = ["Ask yourself...", "Will Faye make it?", "Download the comic and see!", "Forgetful Faye", "Tucking Fabulous"];
 
 //getting all elements that have the class .tagline
 //Currently just 1 h1 tag in black.html
