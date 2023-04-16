@@ -29,7 +29,7 @@ function letterFadeInWord(word) {
         opacity: 0
     });
     newEL.appendTo(tagline);
-    newEL.delay(i * 50);
+    newEL.delay(i * 35);
     newEL.animate({
         opacity: 1
     }, 5100);
