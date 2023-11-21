@@ -237,6 +237,7 @@ body{
 
 .garden{
   background-image: url("media/House-bg.png");
+  background-repeat: no-repeat;
   background-blend-mode: darken;
   height: 120vh;
  }
@@ -354,6 +355,7 @@ border-radius: 20px;
 
 .funeral_page{
   height: 100vh;
+  background-color: #000;
 }
 
 #click{
@@ -425,4 +427,36 @@ border-radius: 20px;
   left: 0px;
   width: 100%;
   height: 100%;
+}
+
+.back_btn{
+  position: fixed;
+  z-index: 999;
+  top: 2%;
+  right: 2%; 
+  max-width: 40%; 
+  background-color: #EEA540;
+  padding: 1%;
+  border-radius: 10px;
+  border: solid 2px #000;
+}
+
+.back_btn a{
+  color: #000;
+}
+
+.back_btn_nonIndex{
+  position: fixed;
+  z-index: 999;
+  top: 2%;
+  left: 2%; 
+  max-width: 40%; 
+  background-color: #EEA540;
+  padding: 1%;
+  border-radius: 10px;
+  border: solid 2px #000;
+}
+
+.back_btn_nonIndex a{
+  color: #000;
 }

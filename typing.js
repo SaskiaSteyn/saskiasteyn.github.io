@@ -22,7 +22,7 @@ var speed = 75;
 var h5 = document.querySelector('h5');
 var p = document.querySelector('p');
 var delay = h5.innerHTML.length * speed + speed;
-var button = document.querySelector('a');
+var button = document.getElementById('first_question');
 
 // type affect to header
 typeEffect(h5, speed, false);

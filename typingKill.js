@@ -18,7 +18,7 @@ function typeEffect(element, speed, displayBtn) {
 var speed = 75;
 var p = document.querySelector('p');
 
-var button = document.querySelector('a');
+var button = document.getElementById('broll2');
 
 var textArray = ["No i will never kill Faye", "They are my best friend. But...", "She did get a lot of money", "", "And... i really like money."];
 var index = 0;
